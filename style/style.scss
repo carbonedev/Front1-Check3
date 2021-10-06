@@ -1,0 +1,26 @@
+
+
+//Importação dos arquivos  scss
+@import "partials/colors";
+@import "partials/typography";
+@import "partials/effects";
+@import "partials/buttons";
+@import "partials/navbar";
+@import "partials/banner";
+
+body{
+    overflow-x: hidden;
+}
+
+body, html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.background{
+    background-color: $black;
+}
+
+.bg-light-dh{
+    background-color: $black-light;
+}
