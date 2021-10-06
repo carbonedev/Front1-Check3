@@ -19,3 +19,28 @@
     z-index: 10;
 }
 
+.d-flex{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+        .username{
+  
+    margin: 0px;
+  
+  }
+  
+        .logocabeca{
+  
+    height: 80px;
+  
+  }
+  
+        .fotouser{
+  
+    height: 50px;
+    border-radius: 30px;
+  
+  }
+}

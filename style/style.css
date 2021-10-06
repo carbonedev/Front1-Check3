@@ -75,6 +75,32 @@ p {
   z-index: 10;
 }
 
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.d-flex .username {
+  margin: 0px;
+}
+
+.d-flex .logocabeca {
+  height: 80px;
+}
+
+.d-flex .fotouser {
+  height: 50px;
+  border-radius: 30px;
+}
+
 .parallax {
   /* The image used */
   background-image: url("https://wallpapercave.com/wp/wp4141052.png");
@@ -129,6 +155,56 @@ p {
   }
 }
 
+.container {
+  padding-top: 40px;
+}
+
+.container .card {
+  background-color: #3e3f40;
+  color: black;
+  text-align: center;
+}
+
+.container .card .card-title {
+  font-size: 50px;
+  color: #edf1f5;
+}
+
+.container .card .card-img-top iframe {
+  width: 100%;
+  height: 505px;
+}
+
+.container .card .card-text {
+  color: #18191a;
+}
+
+.container .card .card-ficha {
+  color: #edf1f5;
+  font-size: 30px;
+}
+
+.container ul {
+  list-style-type: none;
+  color: #18191a;
+}
+
+.container .tecnica {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.container .tecnica :nth-child(odd) {
+  background-color: #505253;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -145,97 +221,4 @@ body, html {
 .bg-light-dh {
   background-color: #3e3f40;
 }
-
-.d-flex{
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-}
-
-.username{
-
-  margin: 0px;
-
-}
-
-.logocabeca{
-
-  height: 80px;
-
-}
-
-.fotouser{
-
-  height: 50px;
-  border-radius: 30px;
-
-}
-
-.container{
-
-  padding-top:40px;
-
-}
-
-.card {
-
-  background-color:#3e3f40;
-  color: black;
-  text-align: center;
-
-}
-
-
-ul{
-
-  list-style-type: none;
-
-}
-
-.tecnica{
-
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
- 
-}
-
-.tecnica :nth-child(odd){
-
-  background-color: rgb(112, 109, 109);
-
-}
-
-.card-title{
-
-    font-size: 50px;
-    color: white;
-
-}
-
-.card-img-top iframe{
-
-    width: 100%;
-    height: 505px;
-
-}
-.card-text{
-
-  color: black;
-
-}
-
-.card-ficha{
-
-  color: white;
-  font-size: 30px;
-
-}
-
-
-
-
 /*# sourceMappingURL=style.css.map */

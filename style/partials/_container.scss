@@ -1,0 +1,64 @@
+.container{
+
+    padding-top:40px;
+  
+  .card {
+  
+    background-color:#3e3f40;
+    color: black;
+    text-align: center;
+  
+                .card-title{
+
+                    font-size: 50px;
+                    color: $white;
+
+                }
+
+                .card-img-top iframe{
+
+                    width: 100%;
+                    height: 505px;
+
+                }
+                .card-text{
+
+                    color: $black-dark;
+
+                }
+
+                .card-ficha{
+
+                    color: $white;
+                    font-size: 30px;
+
+                }
+
+
+}
+  
+  
+  ul{
+  
+    list-style-type: none;
+    color: $black-dark;
+    
+
+  }
+  
+        .tecnica{
+  
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+   
+  
+    
+                    :nth-child(odd){
+        
+                    background-color: $black-very-light;
+  
+        }
+    }
+}
