@@ -184,6 +184,10 @@ p {
   font-size: 30px;
 }
 
+.container .card img {
+  height: 505px;
+}
+
 .container ul {
   list-style-type: none;
   color: #18191a;
